@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Span</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        /* spaning is used for two coloumns or rows are merge */
+        .tblColSpan,
+        th,
+        tr,
+        td {
+            border: 1px solid rgb(13, 107, 164);
+            border-radius: 1px;
+            border-collapse: collapse;
+            padding: 20px;
+            margin: 0% auto;
+        }
+
+        th {
+            background-color: lightgoldenrodyellow;
+            font-size: 20px;
+
+        }
+
+        th,
+        td {
+            text-align: center;
+
+        }
+
+        /* using hover to change the cursor into pointer */
+        td:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>EVENT DETAILS</h1>
+
+    <table class="tblColSpan" style="width: 80%;">
+        <tr>
+            <th>Sno</th>
+            <th>Event</th>
+            <th>Place</th>
+            <th colspan="2">Time & Date</th>
+
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Sympoism</td>
+            <td>PEKAK Hall</td>
+            <td>11.00 Am</td>
+            <td>22.03.2026</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Sports</td>
+            <td>PEKAK Hall</td>
+            <td>10.00 AM</td>
+            <td>23.03.2026</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Speech</td>
+            <td>PEKAK Hall</td>
+            <td>10.00 AM</td>
+            <td>24.03.2026</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
