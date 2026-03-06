@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacing</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        /* table style */
+         table {
+            border-collapse: collapse; /*removes double borders*/
+            border-color: black;
+            border: solid;
+            width: 10px;
+            margin: 0% auto;
+         }
+          th,
+        td {
+
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        /* header style */
+        th{
+            background-color: cadetblue;
+        }
+         /* even number of rows are changing */
+        tr:nth-child(even){
+            background-color: pink;
+        }
+        /* odd number of rows are changing */
+        tr:nth-child(odd){
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <h2>TRAVEL BUCKET LIST PLAN</h2>
+        <tr>
+            <th>Country</th>
+            <th>City</th>
+            <th>Visit Time</th>
+            <th>Budget</th>
+            <th>Timing</th>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>Tokyo</td>
+            <td>March</td>
+            <td>$$$$$$</td>
+            <td>Night</td>
+        </tr>
+        <tr>
+            <td>France</td>
+            <td>Paris</td>
+            <td>May</td>
+            <td>$$$$$$</td>
+            <td>Morning</td>
+        </tr>
+        <tr>
+            <td>Thailand</td>
+            <td>phuket</td>
+            <td>july</td>
+            <td>$$$$$</td>
+            <td>Night</td>
+
+        </tr>
+        <tr>
+        <td>Dubai</td>
+        <td>Burj khalifa</td>
+        <td>september</td>
+        <td>$$$$$$</td>
+        <td>Night</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
